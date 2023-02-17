@@ -1,0 +1,565 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vAdder
+Z0 !s110 1655813388
+!i10b 1
+!s100 K06FXPNI0]hCQU3imFhN<3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I?hVoi2lRRKIQX_kkj8?213
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/projects/CA/CA03-final/PipeLine Processor
+Z4 w1655383509
+Z5 8D:/projects/CA/CA03-final/PipeLine Processor/DataPath.v
+Z6 FD:/projects/CA/CA03-final/PipeLine Processor/DataPath.v
+!i122 1
+L0 108 4
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1655813388.000000
+Z9 !s107 D:/projects/CA/CA03-final/PipeLine Processor/DataPath.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA/CA03-final/PipeLine Processor/DataPath.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@adder
+vALU
+R0
+!i10b 1
+!s100 jfWQ<LGYKVe1UJ=jAl>@m0
+R1
+ID=]`SX^A89;?9D4_[zFZD3
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 126 14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@l@u
+vComparator
+R0
+!i10b 1
+!s100 C9:dEF]zhK`6Zj7^4mnGS1
+R1
+IN9Bgh9Xa6gIRc7jETQ=Go3
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 267 10
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@comparator
+vController
+R0
+!i10b 1
+!s100 :B:Y=4@4l7b8z8Hj;Sn]R2
+R1
+Ia?[7Z_JI_BHa2[R2_JlEn2
+R2
+R3
+w1655291353
+8D:/projects/CA/CA03-final/PipeLine Processor/Controller.v
+FD:/projects/CA/CA03-final/PipeLine Processor/Controller.v
+!i122 0
+L0 1 38
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/projects/CA/CA03-final/PipeLine Processor/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA/CA03-final/PipeLine Processor/Controller.v|
+!i113 1
+R11
+R12
+n@controller
+vDataMem
+R0
+!i10b 1
+!s100 O2T3[jC@QBH3d]?3HNAPS3
+R1
+IMCI<om6_72RNGE^ZTH9c_0
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 153 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@data@mem
+vDataPath
+R0
+!i10b 1
+!s100 F6Zk4IzPf=8_1mb3C8G0F3
+R1
+IgfJ[QAP7aUfU:fMJiPSO80
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 1 98
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@data@path
+vEX_MEM_Reg
+R0
+!i10b 1
+!s100 kJNH;9H=Zn?`4z3j6ZS6M1
+R1
+Ih[[7LiSJ43>;3c3??m21I0
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 232 18
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@e@x_@m@e@m_@reg
+vForwardUnit
+R0
+!i10b 1
+!s100 ;CATghSIYEZzA:34RTM180
+R1
+IKk2kcR4lP:V=?EX4M64F[3
+R2
+R3
+w1655311607
+8D:/projects/CA/CA03-final/PipeLine Processor/ForwardUnit.v
+FD:/projects/CA/CA03-final/PipeLine Processor/ForwardUnit.v
+!i122 2
+L0 1 14
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/projects/CA/CA03-final/PipeLine Processor/ForwardUnit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA/CA03-final/PipeLine Processor/ForwardUnit.v|
+!i113 1
+R11
+R12
+n@forward@unit
+vHazardMux
+R0
+!i10b 1
+!s100 P4VMd4S?ed9@AL?YGHoC<0
+R1
+I_LlNHbfjCO_b`?J_77><22
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 278 6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@hazard@mux
+vHazardUnit
+R0
+!i10b 1
+!s100 KZ;A];=Oz8H>zL2`Sgz^C3
+R1
+I=l9:TzU2Ag60KPGhnXn[c2
+R2
+R3
+w1655385929
+8D:/projects/CA/CA03-final/PipeLine Processor/HazardUnit.v
+FD:/projects/CA/CA03-final/PipeLine Processor/HazardUnit.v
+!i122 3
+L0 1 17
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/projects/CA/CA03-final/PipeLine Processor/HazardUnit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA/CA03-final/PipeLine Processor/HazardUnit.v|
+!i113 1
+R11
+R12
+n@hazard@unit
+vID_EX_Reg
+R0
+!i10b 1
+!s100 2RQ1NHF0FIKQMbblO3C:a2
+R1
+I`5cfVD<:K2UMO@bD6o6nF0
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 207 24
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@i@d_@e@x_@reg
+vIF_ID_Reg
+R0
+!i10b 1
+!s100 4XUZ3;hBS?jdT0A0_oh=I0
+R1
+INgSAcFVYNh;TAi4jLaZBL3
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 192 14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@i@f_@i@d_@reg
+vInstMem
+R0
+!i10b 1
+!s100 CSjAj5;4RNOz4c6N;_VeO2
+R1
+I:OdkPBXNBbH6:CWi<`V`Y3
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 166 11
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@inst@mem
+vMEM_WB_Reg
+R0
+!i10b 1
+!s100 46k7DmzF_^PlGQDU`CHXd1
+R1
+ICAd2^W9KjY4QP5IFV8z_@2
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 251 15
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@m@e@m_@w@b_@reg
+vMipsProcessor
+R0
+!i10b 1
+!s100 nTWg=zC9GkHmn5iF=bCRI0
+R1
+I@LAk[TWB8XFCKBC9biaC=0
+R2
+R3
+w1655363420
+8D:/projects/CA/CA03-final/PipeLine Processor/MipsProcessor.v
+FD:/projects/CA/CA03-final/PipeLine Processor/MipsProcessor.v
+!i122 4
+L0 1 27
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/projects/CA/CA03-final/PipeLine Processor/MipsProcessor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA/CA03-final/PipeLine Processor/MipsProcessor.v|
+!i113 1
+R11
+R12
+n@mips@processor
+vMux2
+R0
+!i10b 1
+!s100 CEodO3XEV<QG^[iJYfSn:0
+R1
+IJKjdiYnFf>j=l;H9TJJzC3
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 100 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@mux2
+vMux3
+R0
+!i10b 1
+!s100 =g1G0=0kOmk8mHgijFeb<0
+R1
+IYaM>IXcH?TRUbkhb0V_;?2
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 104 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@mux3
+vPC
+R0
+!i10b 1
+!s100 6:QS;k>3E1:Z?g7z1JLFK3
+R1
+I^gKTEkUj_l`X3eK=2VlZ`3
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 113 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@p@c
+vRegFile
+R0
+!i10b 1
+!s100 <fFSYdJFW?Tj@]T]I5L2G2
+R1
+Idc0zdRDgh9HUKXf^3TNXD1
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 178 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@reg@file
+vShiftLeft26bit
+R0
+!i10b 1
+!s100 T[SNG:M1:MaM69]CVjVYR3
+R1
+I::AXC6DibG;VhfQ888:n=1
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 149 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@shift@left26bit
+vShiftLeft32bit
+R0
+!i10b 1
+!s100 GcE59gdGXXcARJcYSo1IA1
+R1
+IISjA`Z^JOfg37=APWo1_l0
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 145 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@shift@left32bit
+vSignExtend
+R0
+!i10b 1
+!s100 d]Ojm]ng5zP3L_Y<[K4:62
+R1
+IGXYeZJa6bk4U6Jf[W<^^z3
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 141 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@sign@extend
+vTEST
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+!i10b 1
+!s100 j0>fG?MMA2n?hFm582X]c2
+R1
+I4G][36<o=YbBH<J?<ajaU2
+R2
+S1
+R3
+w1655217714
+8D:/projects/CA/CA03-final/PipeLine Processor/TestBench.sv
+FD:/projects/CA/CA03-final/PipeLine Processor/TestBench.sv
+!i122 5
+L0 2 13
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/projects/CA/CA03-final/PipeLine Processor/TestBench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/projects/CA/CA03-final/PipeLine Processor/TestBench.sv|
+!i113 1
+o-work work -sv
+R12
+n@t@e@s@t

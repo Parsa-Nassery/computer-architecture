@@ -1,0 +1,60 @@
+{D:/projects/CA/CA03-final/PipeLine Processor/ForwardUnit.v} {1 {vlog -work work -stats=none {D:/projects/CA/CA03-final/PipeLine Processor/ForwardUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ForwardUnit
+
+Top level modules:
+	ForwardUnit
+
+} {} {}} {D:/projects/CA/CA03-final/PipeLine Processor/MipsProcessor.v} {1 {vlog -work work -stats=none {D:/projects/CA/CA03-final/PipeLine Processor/MipsProcessor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MipsProcessor
+
+Top level modules:
+	MipsProcessor
+
+} {} {}} {D:/projects/CA/CA03-final/PipeLine Processor/HazardUnit.v} {1 {vlog -work work -stats=none {D:/projects/CA/CA03-final/PipeLine Processor/HazardUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HazardUnit
+
+Top level modules:
+	HazardUnit
+
+} {} {}} {D:/projects/CA/CA03-final/PipeLine Processor/DataPath.v} {1 {vlog -work work -stats=none {D:/projects/CA/CA03-final/PipeLine Processor/DataPath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+-- Compiling module Mux2
+-- Compiling module Mux3
+-- Compiling module Adder
+-- Compiling module PC
+-- Compiling module ALU
+-- Compiling module SignExtend
+-- Compiling module ShiftLeft32bit
+-- Compiling module ShiftLeft26bit
+-- Compiling module DataMem
+-- Compiling module InstMem
+-- Compiling module RegFile
+-- Compiling module IF_ID_Reg
+-- Compiling module ID_EX_Reg
+-- Compiling module EX_MEM_Reg
+-- Compiling module MEM_WB_Reg
+-- Compiling module Comparator
+-- Compiling module HazardMux
+
+Top level modules:
+	DataPath
+
+} {} {}} {D:/projects/CA/CA03-final/PipeLine Processor/TestBench.sv} {1 {vlog -work work -sv -stats=none {D:/projects/CA/CA03-final/PipeLine Processor/TestBench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TEST
+
+Top level modules:
+	TEST
+
+} {} {}} {D:/projects/CA/CA03-final/PipeLine Processor/Controller.v} {1 {vlog -work work -stats=none {D:/projects/CA/CA03-final/PipeLine Processor/Controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}}

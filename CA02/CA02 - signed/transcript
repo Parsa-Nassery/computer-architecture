@@ -1,0 +1,38 @@
+vsim -gui work.TEST
+# vsim -gui work.TEST 
+# Start time: 15:51:29 on May 20,2022
+# Loading sv_std.std
+# Loading work.TEST
+# Loading work.MipsProcessor
+# Loading work.DataPath
+# Loading work.PC
+# Loading work.InstMem
+# Loading work.RegFile
+# Loading work.DataMem
+# Loading work.ALU
+# Loading work.SignExtend
+# Loading work.ShiftLeft32bit
+# Loading work.ShiftLeft26bit
+# Loading work.Adder
+# Loading work.Mux2
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (28) does not match connection size (32) for port 'out'. The port definition is at: D:/projects/CA/CA02 - signed/DataPath.v(96).
+#    Time: 0 ns  Iteration: 0  Instance: /TEST/MP/My_DataPath/My_ShiftLeft26bit File: D:/projects/CA/CA02 - signed/DataPath.v Line: 37
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'My_Controller'.  Expected 16, found 15.
+#    Time: 0 ns  Iteration: 0  Instance: /TEST/MP/My_Controller File: D:/projects/CA/CA02 - signed/MipsProcessor.v Line: 10
+# ** Warning: (vsim-3722) D:/projects/CA/CA02 - signed/MipsProcessor.v(10): [TFMPC] - Missing connection for port 'ALUres'.
+add wave -position end  sim:/TEST/Clock
+add wave -position end  sim:/TEST/Reset
+add wave -position end  sim:/TEST/MemOut
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Parsa  Hostname: DESKTOP-I8A3P4U  ProcessID: 21304
+#           Attempting to use alternate WLF file "./wlftidx8ah".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftidx8ah
+run
+run
+run
+run
+# End time: 15:54:14 on May 20,2022, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 6
+# Closing project D:/projects/CA/CA02 - signed/MipsProcessor.mpf

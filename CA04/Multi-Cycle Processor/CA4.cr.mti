@@ -1,0 +1,38 @@
+{D:/projects/CA/CA04 final/Multi-Cycle Processor/TestBench.sv} {1 {vlog -work work -sv -stats=none {D:/projects/CA/CA04 final/Multi-Cycle Processor/TestBench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TEST
+
+Top level modules:
+	TEST
+
+} {} {}} {D:/projects/CA/CA04 final/Multi-Cycle Processor/DataPath.v} {1 {vlog -work work -stats=none {D:/projects/CA/CA04 final/Multi-Cycle Processor/DataPath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+-- Compiling module Mux2
+-- Compiling module Mux3
+-- Compiling module PC
+-- Compiling module ALU
+-- Compiling module SignExtend
+-- Compiling module Memory
+-- Compiling module RegFile
+-- Compiling module Reg16
+-- Compiling module IR
+
+Top level modules:
+	DataPath
+
+} {} {}} {D:/projects/CA/CA04 final/Multi-Cycle Processor/Processor.v} {1 {vlog -work work -stats=none {D:/projects/CA/CA04 final/Multi-Cycle Processor/Processor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Processor
+
+Top level modules:
+	Processor
+
+} {} {}} {D:/projects/CA/CA04 final/Multi-Cycle Processor/Controller.v} {1 {vlog -work work -stats=none {D:/projects/CA/CA04 final/Multi-Cycle Processor/Controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}}

@@ -1,0 +1,43 @@
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of MipsProcessor.v was successful.
+# Compile of TestBench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.TEST
+# vsim -gui work.TEST 
+# Start time: 15:54:22 on May 20,2022
+# Loading sv_std.std
+# Loading work.TEST
+# Loading work.MipsProcessor
+# Loading work.DataPath
+# Loading work.PC
+# Loading work.InstMem
+# Loading work.RegFile
+# Loading work.DataMem
+# Loading work.ALU
+# Loading work.SignExtend
+# Loading work.ShiftLeft32bit
+# Loading work.ShiftLeft26bit
+# Loading work.Adder
+# Loading work.Mux2
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (28) does not match connection size (32) for port 'out'. The port definition is at: D:/projects/CA/CA02 - unsigned/DataPath.v(96).
+#    Time: 0 ns  Iteration: 0  Instance: /TEST/MP/My_DataPath/My_ShiftLeft26bit File: D:/projects/CA/CA02 - unsigned/DataPath.v Line: 37
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'My_Controller'.  Expected 16, found 15.
+#    Time: 0 ns  Iteration: 0  Instance: /TEST/MP/My_Controller File: D:/projects/CA/CA02 - unsigned/MipsProcessor.v Line: 10
+# ** Warning: (vsim-3722) D:/projects/CA/CA02 - unsigned/MipsProcessor.v(10): [TFMPC] - Missing connection for port 'ALUres'.
+add wave -position end  sim:/TEST/Clock
+add wave -position end  sim:/TEST/Reset
+add wave -position end  sim:/TEST/MemOut
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Parsa  Hostname: DESKTOP-I8A3P4U  ProcessID: 18080
+#           Attempting to use alternate WLF file "./wlft7tamw8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7tamw8
+run
+run
+run
+run
+run
+# End time: 16:01:00 on May 20,2022, Elapsed time: 0:06:38
+# Errors: 0, Warnings: 7

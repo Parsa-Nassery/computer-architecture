@@ -1,0 +1,325 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/projects/CA/CA03-final/PipeLine Processor
+vALU
+Z0 !s110 1655813511
+!i10b 1
+!s100 m9bMGnXVLFnP:BOV4RKUf1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXLBcnHJ0Cc;N<o;UcA11<3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/projects/CA/CA04 final/Multi-Cycle Processor
+Z4 w1654981049
+Z5 8D:/projects/CA/CA04 final/Multi-Cycle Processor/DataPath.v
+Z6 FD:/projects/CA/CA04 final/Multi-Cycle Processor/DataPath.v
+!i122 1
+L0 68 17
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1655813511.000000
+Z9 !s107 D:/projects/CA/CA04 final/Multi-Cycle Processor/DataPath.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA/CA04 final/Multi-Cycle Processor/DataPath.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@a@l@u
+vController
+R0
+!i10b 1
+!s100 j8Y<^R:CLHIbTNGI<j>Ql1
+R1
+IN9nLD2Xn=^GkMhWeYVWU^1
+R2
+R3
+w1654974140
+8D:/projects/CA/CA04 final/Multi-Cycle Processor/Controller.v
+FD:/projects/CA/CA04 final/Multi-Cycle Processor/Controller.v
+!i122 0
+L0 1 87
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/projects/CA/CA04 final/Multi-Cycle Processor/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA/CA04 final/Multi-Cycle Processor/Controller.v|
+!i113 1
+R11
+R12
+n@controller
+vDataPath
+R0
+!i10b 1
+!s100 I<@9QmO3c6>V4RUgQ[DzC0
+R1
+IEENS@]AXM0AQVG05LX2Il2
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 1 45
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@data@path
+vIR
+R0
+!i10b 1
+!s100 gkb@@^eafHjJzOE]FHOTL3
+R1
+IBh2R0<YaT``4l:V9RBlag1
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 133 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@i@r
+vMemory
+R0
+!i10b 1
+!s100 X[F7<96T=>JJi`A@JC^3a3
+R1
+IYi2_fABS0Oahg^:XQ_3__2
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 90 14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@memory
+vMux2
+R0
+!i10b 1
+!s100 0a[ZVng__M6FcnXb8j0Ub0
+R1
+IT4MBEIdc^97<YVU8C73dG3
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 47 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@mux2
+vMux3
+R0
+!i10b 1
+!s100 LhmK96C8fU4ZiPbh_O>CX3
+R1
+IN<X0>Nzd=Je0MB8c[?e]=0
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 51 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@mux3
+vPC
+R0
+!i10b 1
+!s100 WnA8m2=nFKAWCN:9Z3P<Q2
+R1
+ICG]CzkC0@EJIGXBP7Tj[X3
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 55 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@p@c
+vProcessor
+R0
+!i10b 1
+!s100 <;[PJzRRng_0G50HM[WA30
+R1
+IX?ia;K3V0Y=fj?0cQ@mo32
+R2
+R3
+w1654974142
+8D:/projects/CA/CA04 final/Multi-Cycle Processor/Processor.v
+FD:/projects/CA/CA04 final/Multi-Cycle Processor/Processor.v
+!i122 2
+L0 1 15
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/projects/CA/CA04 final/Multi-Cycle Processor/Processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA/CA04 final/Multi-Cycle Processor/Processor.v|
+!i113 1
+R11
+R12
+n@processor
+vReg16
+R0
+!i10b 1
+!s100 15:Z8P;Y><S`laPIY3;=10
+R1
+IoM61MTgaFjmeL5;<^^MAX2
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 119 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@reg16
+vRegFile
+R0
+!i10b 1
+!s100 2U9bM5<c04Dk;ZFzDl2NY3
+R1
+IATETIgXU=U;MmCo?1G`Y50
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 105 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@reg@file
+vSignExtend
+R0
+!i10b 1
+!s100 ]>eOBATG7CB9H@dNcJh^60
+R1
+INiG`A0eMkZYAfI3]HF5TB2
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 86 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@sign@extend
+vTEST
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+!i10b 1
+!s100 KJHT60l]4il8IjXY=Z=1e0
+R1
+Io=O]99g`6WgHOW<S1DGHK1
+R2
+S1
+R3
+w1654982972
+8D:/projects/CA/CA04 final/Multi-Cycle Processor/TestBench.sv
+FD:/projects/CA/CA04 final/Multi-Cycle Processor/TestBench.sv
+!i122 3
+L0 2 13
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/projects/CA/CA04 final/Multi-Cycle Processor/TestBench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/projects/CA/CA04 final/Multi-Cycle Processor/TestBench.sv|
+!i113 1
+o-work work -sv
+R12
+n@t@e@s@t

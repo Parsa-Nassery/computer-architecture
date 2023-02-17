@@ -1,0 +1,349 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/projects/CA/test
+vAdder
+Z0 !s110 1653045857
+!i10b 1
+!s100 8iYUgegZX^RnaP[n0LThP1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZlIO@63nhP7Hjha5[IQ_E0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/projects/CA/CA02 - unsigned
+Z4 w1651517308
+Z5 8D:/projects/CA/CA02 - unsigned/DataPath.v
+Z6 FD:/projects/CA/CA02 - unsigned/DataPath.v
+!i122 124
+L0 55 4
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1653045857.000000
+Z9 !s107 D:/projects/CA/CA02 - unsigned/DataPath.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA/CA02 - unsigned/DataPath.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@adder
+vALU
+R0
+!i10b 1
+!s100 =AWPXJ0ZW`XnZd<66Qjjd2
+R1
+I=jCKed7WHLiOnMlEH<fUb1
+R2
+R3
+R4
+R5
+R6
+!i122 124
+L0 73 14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@l@u
+vController
+!s110 1653045856
+!i10b 1
+!s100 e0NaN?g>c8nz7k?1m]j_@3
+R1
+IbH?GgF]F6LZUBCXWnc4L:0
+R2
+R3
+w1651517398
+8D:/projects/CA/CA02 - unsigned/Controller.v
+FD:/projects/CA/CA02 - unsigned/Controller.v
+!i122 123
+L0 1 35
+R7
+r1
+!s85 0
+31
+!s108 1653045856.000000
+!s107 D:/projects/CA/CA02 - unsigned/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA/CA02 - unsigned/Controller.v|
+!i113 1
+R11
+R12
+n@controller
+vDataMem
+R0
+!i10b 1
+!s100 E4f`?KNF`YOVKbWi^D`OC0
+R1
+I3][e8:mTVnG`zMYG<=Y?42
+R2
+R3
+R4
+R5
+R6
+!i122 124
+L0 100 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@data@mem
+vDataPath
+R0
+!i10b 1
+!s100 AdZj?US66@6]a517Nn2Gz3
+R1
+Ifjz?S88FzUBV:H3`Uz0DQ0
+R2
+R3
+R4
+R5
+R6
+!i122 124
+L0 1 49
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@data@path
+vInstMem
+R0
+!i10b 1
+!s100 jIHlnT=mP0P`19m2]O3Ie3
+R1
+I`afg0@I]TMf9gl<O@cb5l1
+R2
+R3
+R4
+R5
+R6
+!i122 124
+L0 113 11
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@inst@mem
+vMipsProcessor
+R0
+!i10b 1
+!s100 XT4C3T2k8BcbH:^CKUFl81
+R1
+IUGcPkk1AML^UUE7[mG3X@2
+R2
+R3
+w1651517352
+8D:/projects/CA/CA02 - unsigned/MipsProcessor.v
+FD:/projects/CA/CA02 - unsigned/MipsProcessor.v
+!i122 125
+L0 1 13
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/projects/CA/CA02 - unsigned/MipsProcessor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA/CA02 - unsigned/MipsProcessor.v|
+!i113 1
+R11
+R12
+n@mips@processor
+vMux2
+R0
+!i10b 1
+!s100 k:QUP8Q]mj>@@0Th^jMUc0
+R1
+Ie;UNI58hk`oBANGn1G8@63
+R2
+R3
+R4
+R5
+R6
+!i122 124
+L0 51 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@mux2
+vPC
+R0
+!i10b 1
+!s100 9NA_LLMI_9G4K]AN]WRBm0
+R1
+IX]imH8?QcASUn<m01K@ge0
+R2
+R3
+R4
+R5
+R6
+!i122 124
+L0 60 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@p@c
+vRegFile
+R0
+!i10b 1
+!s100 DoCX0JbPZP3`_6BCSjLW>2
+R1
+Ib1IiLaCGe_Y3KiHbjYI4G3
+R2
+R3
+R4
+R5
+R6
+!i122 124
+L0 125 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@reg@file
+vShiftLeft26bit
+R0
+!i10b 1
+!s100 m>Ylmh=G7@odjX@G=2U8e2
+R1
+IOH08n1DM]^_Y9]?KHj]]?3
+R2
+R3
+R4
+R5
+R6
+!i122 124
+L0 96 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@shift@left26bit
+vShiftLeft32bit
+R0
+!i10b 1
+!s100 C>UY>l1fJ^51_<>PQ5P6G1
+R1
+I]=2]0FA<LeCSAP@P2SI523
+R2
+R3
+R4
+R5
+R6
+!i122 124
+L0 92 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@shift@left32bit
+vSignExtend
+R0
+!i10b 1
+!s100 ddP30JGU>idCJIjT60Z]F3
+R1
+I7=aaS<9[0g60Q=;XP=WA]3
+R2
+R3
+R4
+R5
+R6
+!i122 124
+L0 88 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@sign@extend
+vTEST
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+!i10b 1
+!s100 E;nOJ^O[^fSUzTB]OE6:Q0
+R1
+ITzX^UcY9O<01i8]?Xd@Ng3
+R2
+S1
+R3
+w1652022147
+8D:/projects/CA/CA02 - unsigned/TestBench.sv
+FD:/projects/CA/CA02 - unsigned/TestBench.sv
+!i122 126
+L0 2 13
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/projects/CA/CA02 - unsigned/TestBench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/projects/CA/CA02 - unsigned/TestBench.sv|
+!i113 1
+o-work work -sv
+R12
+n@t@e@s@t

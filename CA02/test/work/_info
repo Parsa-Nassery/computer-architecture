@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vController
+!s110 1651506329
+!i10b 1
+!s100 2?Il>FL[@ijJ?MNWz7WAV3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ij[zlRRgk9=jE=L34cKhH_0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/projects/CA/test
+w1651506325
+Z3 8D:/projects/CA/test/test.v
+Z4 FD:/projects/CA/test/test.v
+!i122 10
+L0 1 8
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1651506329.000000
+Z6 !s107 D:/projects/CA/test/test.v|
+Z7 !s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA/test/test.v|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+n@controller
+vDataMem
+!s110 1651486271
+!i10b 1
+!s100 ERL:QJ<KjRoz:@0@kfHL82
+R0
+Iei`WIQAA:F;Q9GZFOSJA91
+R1
+R2
+w1651486254
+R3
+R4
+!i122 8
+L0 2 12
+R5
+r1
+!s85 0
+31
+!s108 1651486271.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@data@mem
+vRegFile
+!s110 1651503513
+!i10b 1
+!s100 g2dH1BzKTBbdLED>88DGM1
+R0
+IoDQWjJJm3DnhEGc`h<Jc>0
+R1
+R2
+w1651503507
+R3
+R4
+!i122 9
+L0 1 45
+R5
+r1
+!s85 0
+31
+!s108 1651503513.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@reg@file
