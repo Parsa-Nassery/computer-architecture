@@ -1,0 +1,180 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vCoCalculator
+Z0 !s110 1650518773
+!i10b 1
+!s100 QGj9El0FVdlPjX0n>oMZ;1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=d7<lmD=n7?=FPAA0CeBA1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/projects/CA01
+w1649784078
+8D:/projects/CA01/CoCalculator.v
+FD:/projects/CA01/CoCalculator.v
+!i122 231
+L0 2 74
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1650518772.000000
+!s107 D:/projects/CA01/CoCalculator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA01/CoCalculator.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@co@calculator
+vController
+R0
+!i10b 1
+!s100 f_9E6cV?l41EI6]iZ>5Tb0
+R1
+Ig8^gaZhO8FW9H4@K:G;oL3
+R2
+R3
+w1649676180
+8D:/projects/CA01/Controller.v
+FD:/projects/CA01/Controller.v
+!i122 232
+L0 2 31
+R4
+r1
+!s85 0
+31
+Z7 !s108 1650518773.000000
+!s107 D:/projects/CA01/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA01/Controller.v|
+!i113 1
+R5
+R6
+n@controller
+vDataLoader
+R0
+!i10b 1
+!s100 M<^K4VBc[7]_@B230TX7U2
+R1
+I4j]2X`]]VC75QG78WGfNe1
+R2
+R3
+w1649660287
+8D:/projects/CA01/DataLoader.v
+FD:/projects/CA01/DataLoader.v
+!i122 233
+L0 3 34
+R4
+r1
+!s85 0
+31
+R7
+!s107 D:/projects/CA01/DataLoader.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA01/DataLoader.v|
+!i113 1
+R5
+R6
+n@data@loader
+vErrorChecker
+R0
+!i10b 1
+!s100 fjn`D:@KImakBhYf;6R]g1
+R1
+IbX`^Rl:M1106<Le2_=@aE3
+R2
+R3
+w1649786108
+8D:/projects/CA01/ErrorChecker.v
+FD:/projects/CA01/ErrorChecker.v
+!i122 234
+L0 2 12
+R4
+r1
+!s85 0
+31
+R7
+!s107 D:/projects/CA01/ErrorChecker.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA01/ErrorChecker.v|
+!i113 1
+R5
+R6
+n@error@checker
+vLinearRegressor
+R0
+!i10b 1
+!s100 :7GZJ9Ok<2aGo>gk30=nQ2
+R1
+IQIP<>e6`@E@O1Yz1j33fb2
+R2
+R3
+w1649681449
+8D:/projects/CA01/LinearRegressor.v
+FD:/projects/CA01/LinearRegressor.v
+!i122 235
+L0 2 10
+R4
+r1
+!s85 0
+31
+R7
+!s107 D:/projects/CA01/LinearRegressor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/projects/CA01/LinearRegressor.v|
+!i113 1
+R5
+R6
+n@linear@regressor
+vTEST
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+!i10b 1
+!s100 D[Xh3IH9P@0TgNi;h`eX`0
+R1
+I3FG_C3X9;K:>z`B`TJ0cP1
+R2
+S1
+R3
+w1650475969
+8D:/projects/CA01/testbench.sv
+FD:/projects/CA01/testbench.sv
+!i122 236
+L0 2 20
+R4
+r1
+!s85 0
+31
+R7
+!s107 D:/projects/CA01/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/projects/CA01/testbench.sv|
+!i113 1
+o-work work -sv
+R6
+n@t@e@s@t
+vtest
+!s110 1649681825
+!i10b 1
+!s100 JEl1aU]?52EhQ@@RVa@jE2
+R1
+IlefM7<AKiJV=z<dU>RogR2
+R2
+dC:/Users/MSI/Desktop/CA01
+w1649659706
+8C:/Users/MSI/Desktop/CA01/test.v
+FC:/Users/MSI/Desktop/CA01/test.v
+!i122 194
+L0 2 3
+R4
+r1
+!s85 0
+31
+!s108 1649681825.000000
+!s107 C:/Users/MSI/Desktop/CA01/test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MSI/Desktop/CA01/test.v|
+!i113 1
+R5
+R6
