@@ -1,4 +1,4 @@
-
+// Linear Regressor verilog
 module LinearRegressor(input clk, rst, start, output [19:0] Vect_E, output ready);
 	wire [19:0] Xi, Yi, B0, B1;
 	wire [15:0] M;

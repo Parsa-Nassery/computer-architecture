@@ -1,4 +1,4 @@
-
+//DataLoader Verilog
 
 module DataLoader(input clk, rst, cnt1, cnt2, ld_1, ld_2, output [19:0] xi, yi, output Cout1, Cout2);
 	reg [19:0] memx [0:149];
