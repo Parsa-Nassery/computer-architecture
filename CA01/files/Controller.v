@@ -1,4 +1,4 @@
-
+//Controller Verilog
 module Controller(input clk, rst, Start, Cout1, Cout2, output reg [15:0] m, output reg Ready, en_x2, en_xx, en_xy, en_x, en_y, en_x_y, en_b0, en_b1, en_err, ld_1, ld_2, cnt1, cnt2);
 	reg [3:0] nstate, pstate;
 	
