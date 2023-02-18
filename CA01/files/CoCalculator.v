@@ -1,4 +1,4 @@
-
+//CoCalculator Verilog
 module CoCalculator(input clk, rst, en_x, en_y, en_xx, en_xy, en_x2, en_x_y, en_b0, en_b1, input [19:0] xi, yi, input [15:0] m, output [83:0] b0, output [55:0] b1);
 	reg [27:0] reg_x = 28'b0;
 	reg [27:0] reg_y = 28'b0;
